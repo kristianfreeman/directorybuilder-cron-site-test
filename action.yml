@@ -1,0 +1,5 @@
+name: "Directory Builder Site Check"
+description: "Check all sites registered for directory builder"
+runs:
+  using: "node12"
+  main: "dist/index.js"
